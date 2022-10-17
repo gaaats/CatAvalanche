@@ -95,23 +95,41 @@
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_05" />
 
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tv_about_game_text"
+    <ScrollView
+        android:id="@+id/scroll_v"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:maxLines="25"
-        android:ellipsize="end"
-        android:gravity="center"
-        android:textColor="@color/add_colour_the_most_dark"
-        android:text="Is a two-player arcade game. In the game, the two players each control a spaceship, which they fly from the bottom of the screen to the top. Along the way are dashes representing asteroids moving across the screen from left to right, which the players must avoid. \n\n Movement controls are limited to moving the spaceship up or down; if the player's ship is hit by an asteroid it disappears for a few seconds before reappearing at the bottom again. The game displays a starfield in the background, as well as each player's score, which increases whenever a player makes it to the top first. \nEach game is for a set amount of time, represented by a line in the bottom middle of the screen that shortens during the game, with the winner being the player with the higher score when time runs out.[2] Each game costs a quarter. \n\nMachines can be set to play one or two rounds per game, and the time per round is adjustable per machine over a range from 45 seconds to 3 minutes."
-        android:textSize="16sp"
-        android:textStyle="italic"
-        app:layout_constraintTop_toBottomOf="@id/tv_title_about"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_95"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_13">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_about_game_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/add_colour_the_most_dark"
+            android:text="@string/long_text_about"
+            android:textSize="16sp"
+            android:textStyle="italic"/>
+
+
+    </ScrollView>
+
+
+
+    <TextView
+        android:id="@+id/tv_dovn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="@string/logo_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_95" />
 
 
 

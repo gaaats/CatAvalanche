@@ -7,11 +7,11 @@ plugins {
     id 'dagger.hilt.android.plugin'
 }
 android {
-    namespace 'com.gamecarart.carace'
+    namespace 'com.gamecarartmoster.monsterfall'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.golftestgamexyz.myapplication"
+        applicationId "com.gamecarartmoster.monsterfall"
         minSdk 26
         targetSdk 32
         versionCode 1

@@ -67,7 +67,7 @@
         android:id="@+id/tv_title_settings"
         style="@style/text_settings_style"
         android:layout_width="0dp"
-        android:padding="3dp"
+        android:padding="4dp"
         android:layout_height="0dp"
         android:autoSizeTextType="uniform"
         android:gravity="center"
@@ -82,7 +82,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:elevation="1dp"
-        android:src="@drawable/ic_baseline_settings_24"
+        android:src="@drawable/settings"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -93,7 +93,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:elevation="1dp"
-        android:src="@drawable/ic_baseline_favorite_24"
+        android:src="@drawable/heart"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
@@ -105,7 +105,7 @@
         android:layout_marginTop="16dp"
         android:layout_height="180dp"
         android:elevation="1dp"
-        android:src="@drawable/logo_game_1"
+        android:src="@drawable/user_model_1"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_10"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
@@ -123,7 +123,7 @@
         android:textSize="21sp"
         android:textAllCaps="true"
         android:fontFamily="@font/opensans_regular"
-        android:text="Space race"
+        android:text="Ninja &amp; Monster"
         app:layout_constraintTop_toBottomOf="@id/img_game_1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
@@ -134,7 +134,7 @@
         android:layout_height="180dp"
         android:elevation="1dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/logo_game_2"
+        android:src="@drawable/user_model_2"
         app:layout_constraintTop_toBottomOf="@id/guideline_hor_50"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
@@ -152,7 +152,7 @@
         android:textSize="21sp"
         android:textAllCaps="true"
         android:fontFamily="@font/opensans_regular"
-        android:text="Starship race"
+        android:text="warrior &amp; Monster"
         app:layout_constraintTop_toBottomOf="@id/img_game_2"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
@@ -168,6 +168,18 @@
         app:layout_constraintTop_toBottomOf="@id/tv_game_title_2"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
+
+    <TextView
+        android:id="@+id/tv_dovn_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="@string/logo_app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_hor_95" />
 
 
 
