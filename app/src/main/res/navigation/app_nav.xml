@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.gamecarartmoster.monsterfall.StartFragment"
+        android:name="com.gamecarartsnov.furioussnovman.StartFragment"
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
-        android:name="com.gamecarartmoster.monsterfall.GameFragment"
+        android:name="com.gamecarartsnov.furioussnovman.GameFragment"
         android:label="fragment_game"
         tools:layout="@layout/fragment_game" >
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.gamecarartmoster.monsterfall.SettingsFragment"
+        android:name="com.gamecarartsnov.furioussnovman.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" >
         <action
@@ -88,12 +88,12 @@
     </fragment>
     <fragment
         android:id="@+id/bestScoreFragment"
-        android:name="com.gamecarartmoster.monsterfall.BestScoreFragment"
+        android:name="com.gamecarartsnov.furioussnovman.BestScoreFragment"
         android:label="fragment_best_score"
         tools:layout="@layout/fragment_best_score" />
     <fragment
         android:id="@+id/game2Fragment"
-        android:name="com.gamecarartmoster.monsterfall.Game2Fragment"
+        android:name="com.gamecarartsnov.furioussnovman.Game2Fragment"
         android:label="fragment_game2"
         tools:layout="@layout/fragment_game2" >
         <action
@@ -106,22 +106,22 @@
     </fragment>
     <fragment
         android:id="@+id/diffFragment"
-        android:name="com.gamecarartmoster.monsterfall.DiffFragment"
+        android:name="com.gamecarartsnov.furioussnovman.DiffFragment"
         android:label="fragment_diff"
         tools:layout="@layout/fragment_diff" />
     <fragment
         android:id="@+id/photosFragment"
-        android:name="com.gamecarartmoster.monsterfall.PhotosFragment"
+        android:name="com.gamecarartsnov.furioussnovman.PhotosFragment"
         android:label="fragment_photos"
         tools:layout="@layout/fragment_photos" />
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.gamecarartmoster.monsterfall.AboutFragment"
+        android:name="com.gamecarartsnov.furioussnovman.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/loseFragment"
-        android:name="com.gamecarartmoster.monsterfall.LoseFragment"
+        android:name="com.gamecarartsnov.furioussnovman.LoseFragment"
         android:label="fragment_lose"
         tools:layout="@layout/fragment_lose" >
         <action
@@ -135,7 +135,7 @@
     </fragment>
     <fragment
         android:id="@+id/rulesFragment"
-        android:name="com.gamecarartmoster.monsterfall.RulesFragment"
+        android:name="com.gamecarartsnov.furioussnovman.RulesFragment"
         android:label="fragment_rules"
         tools:layout="@layout/fragment_rules" />
 </navigation>

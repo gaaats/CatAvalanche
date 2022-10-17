@@ -123,7 +123,7 @@
         android:textSize="21sp"
         android:textAllCaps="true"
         android:fontFamily="@font/opensans_regular"
-        android:text="Ninja &amp; Monster"
+        android:text="fireman &amp; snowman"
         app:layout_constraintTop_toBottomOf="@id/img_game_1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
@@ -152,7 +152,7 @@
         android:textSize="21sp"
         android:textAllCaps="true"
         android:fontFamily="@font/opensans_regular"
-        android:text="warrior &amp; Monster"
+        android:text="policeman &amp; snowman"
         app:layout_constraintTop_toBottomOf="@id/img_game_2"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05" />
