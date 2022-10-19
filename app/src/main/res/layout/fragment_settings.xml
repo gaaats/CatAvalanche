@@ -75,7 +75,7 @@
         android:id="@+id/btn_img_exit"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/ic_baseline_close_24"
+        android:src="@drawable/close"
         app:layout_constraintBottom_toBottomOf="@id/guideline_hor_10"
         app:layout_constraintDimensionRatio="1,1"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
@@ -144,10 +144,22 @@
         android:fontFamily="@font/montserrat_black"
         android:text="rules"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@id/btn_about"
+        app:layout_constraintBottom_toTopOf="@id/btn_main_hero"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
         app:layout_constraintTop_toBottomOf="@id/btn_photos" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_main_hero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:text="main hero"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/btn_about"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
+        app:layout_constraintTop_toBottomOf="@id/btn_rules" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_about"
@@ -159,7 +171,7 @@
         app:layout_constraintBottom_toTopOf="@id/tv_dovn_text"
         app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05"
-        app:layout_constraintTop_toBottomOf="@id/btn_rules" />
+        app:layout_constraintTop_toBottomOf="@id/btn_main_hero" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tv_dovn_text"
@@ -167,7 +179,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_black"
         android:gravity="center"
-        android:text="--- Monsterfall ---"
+        android:text="@string/settings_text_logo"
         android:textAllCaps="true"
         android:textSize="14sp"
         android:textStyle="italic"

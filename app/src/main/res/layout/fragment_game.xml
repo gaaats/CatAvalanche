@@ -70,10 +70,10 @@
 
     <ImageView
         android:id="@+id/img_logo_game_1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="38dp"
-        android:src="@drawable/user_model_1" />
+        android:src="@drawable/game_1_logo" />
 
     <TextView
         android:id="@+id/tv_score_game_1"

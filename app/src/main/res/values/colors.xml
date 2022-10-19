@@ -14,10 +14,10 @@
 
     <color name="add_colour_the_most_dark">#0F0123</color>
 
-    <color name="colour_brighter_then_the_most_dark">#961B06</color>
+    <color name="colour_brighter_then_the_most_dark">#32031b</color>
 
-    <color name="add_colour_not_like_main_1">#D7620F</color>
-    <color name="add_colour_not_like_main_2">#A1521A</color>
+    <color name="add_colour_not_like_main_1">#3A3CED</color>
+    <color name="add_colour_not_like_main_2">#1425B8</color>
 
 
     <color name="main_colour_black">#131410</color>
